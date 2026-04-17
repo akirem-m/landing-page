@@ -72,9 +72,73 @@ a{
     text-align: center;
     align-items: center;
 }
-.middle-body{align-self: center;
-    display: flex;
+/*solution  part*/
 
+
+
+
+.middle-body {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+
+.middle-images {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 100px 15%; 
+}
+
+.p3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*solution  part*/
+.middle-body {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
 }
 .middle-bottom{display: flex;
     flex-direction: column;
@@ -93,27 +157,34 @@ font-weight: 300;
   color:#1f2937;
   
 }
-/*flex-layout-for-bottom*/
+
 .bottom{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(248, 243, 236);
   
-    padding: 5% 10%;
+    padding: 4% 8%;
 
+}
+
+
+
+.r {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 .inside{display: flex;
     justify-content: space-around;
     gap: 16px;
-    width: 80%;
+    width: 110%;
     height: 60%;
-    padding: 2% 4%;
     color: whitesmoke;
     background-color: #3882f6;
     border-radius:8px ;
     margin: 10%;
-    padding: 4%  11%;
+    padding: 4%  11%  4%  ;
 
 
 }
@@ -127,17 +198,26 @@ font-weight: 300;
 font-weight: 300;
   color:#dddddd;
 }
-.bottom-button{
+.bottom-button{display: flex;
      background-color: #3882f6;
-    padding: 8px 34px;
+    padding: 4px 32px;
+    width:fit-content;
     border-radius: 12px;
     align-self: flex-start;
     color: aliceblue;
     font-size: 13px;
     border-color: #ffffff;
     border: solid;
-    
+    display: flex;
+    flex-wrap: nowrap;
+     
+    white-space: nowrap;  
+   
+    align-self: center;   
+    margin-left: 20px;
 }
+    
+
 
 
 /*footer*/
